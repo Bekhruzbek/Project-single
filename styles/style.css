@@ -1,0 +1,131 @@
+@import 'fonts.css';
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.flex-w-wrap{
+    flex-wrap: wrap;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-block {
+    display: block;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+header nav {
+    margin: 17px 0;
+}
+.header-link {
+    margin-right: 32px;
+    font-family: 'Montserrat-Medium';
+    font-size: 12px;
+    color: #191919;
+    text-transform: uppercase;
+}
+
+.header-link:hover {
+    color: #007d2f;
+    text-decoration: none;
+}
+.about .left{
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.test{
+    background: #007d2f;
+    height: 100px;
+}
+.carousel-inner{
+    margin: auto;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: relative !important;
+}
+.about h3{
+    font-family: 'Montserrat-Medium';
+    font-size: 38px;
+    color: #171717;
+}
+.about p,
+.about a{
+    font-family: 'NunitoSans-Regular';
+    font-size: 16px;
+    color: #787878;
+}
+.about span{
+    font-family: 'NunitoSans-Bold';
+    font-size: 16px;
+    color: #171717;
+}
+footer {
+    background: #000;
+    margin-top: 100px;
+}
+footer .container{
+    padding: 100px 0;
+}
+.footer1 h3{
+    font-family: 'Montserrat-Medium';
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.footer1 p{
+    font-family: 'Montserrat-Medium';
+    font-size: 18px;
+    color: #fff;
+}
+.footer2 p{
+    font-family: 'NunitoSans-Regular';
+    font-size: 15px;
+    color: #fff;
+}
+.footer3-1{
+    margin-right: 30px;
+}
+.footer3-2{
+    margin-right: 30px;
+}
+.footer3 a{
+    font-family: 'NunitoSans-Regular';
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+}
